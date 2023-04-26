@@ -1,5 +1,6 @@
 import http from "http";
 import fs from "fs";
+import ws from "ws";
 
 const server = http.createServer(function (req, rep) {
   try {
